@@ -1,0 +1,48 @@
+.header__list{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+
+
+}
+.header__item{
+    @media screen  and (max-width:390px){
+        display: none;
+    }
+    @media screen  and (max-width:445px){
+        display: none;
+    }
+    
+}
+
+.header{
+    padding: 44px 0;
+}
+.header__item + .header__item{
+    margin-left: 33px;
+    align-items: center;
+
+}
+.header__link{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height, or 125% */
+    
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    color: #83888F;
+    
+}
+.header__menyu{
+    display: none;
+    @media screen  and (max-width:390px){
+        display: inline-block;
+    }
+    @media screen  and (max-width:445px){
+        display: inline-block;
+    }
+}
+

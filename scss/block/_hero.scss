@@ -1,0 +1,93 @@
+.hero__container{
+    max-width: 1280px;
+    margin: 0 auto;
+    height: auto;
+
+}
+.hero__bgimg{
+    background-image: url(../img/Bitmap.svg);
+    max-width: 1280px;
+    height: 600px;
+    scroll-behavior: smooth;
+    @media screen and (max-width:768px){
+        max-width: 689px;
+        
+    }
+    @media screen and (max-width:375px){
+        max-width: 327px;
+        
+    }
+}
+.hero__title{
+    font-family: 'Fraunces';
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FEFCF7;
+padding-top: 117px;
+margin-bottom: 32px;
+max-width:493px;
+margin-left: 86px;
+@media screen and (max-width:768px){
+    margin-left: 58px;
+    padding-top: 104px;
+    
+}
+@media screen and (max-width:375px) {
+    margin-left: 45px; 
+    padding-top: 50px;
+    
+
+}
+
+
+}
+.hero__text::selection{
+    color: white;
+}
+.hero__text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+max-width: 417px;
+margin-left: 86px;
+@media screen and (max-width:768px){
+    margin-left: 58px;
+    
+}
+@media screen and (max-width:375px) {
+    margin-left: 34px; 
+    padding-top: 15px;
+    
+
+}
+}
+.hero__button{
+
+    font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+
+color: #FEFCF7;
+background: #0E8784;
+border-radius: 6px;
+padding: 16px 31px;
+margin-left: 85px;
+margin-top: 56px;
+@media screen and (max-width:768px){
+    margin-top: 10px;
+    margin-left: 54px;
+    
+}
+@media screen and (max-width:375px) {
+    margin-top:10px;
+    margin-left: 34px;
+}
+}
